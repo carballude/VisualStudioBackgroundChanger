@@ -26,8 +26,8 @@ namespace VSWallpaperChanger.Controller
         private void PopulateWallpapers()
         {
             var wc = new WebClient();
-            ParseWallpapersPage(wc.DownloadString("http://visualstudiowallpapers.com/"));
-            Enumerable.Range(2, _PAGES).ToList().ForEach(x => ParseWallpapersPage(wc.DownloadString("http://visualstudiowallpapers.com/page/" + x)));
+                ParseWallpapersPage(wc.DownloadString("http://visualstudiowallpapers.com/"));
+                Enumerable.Range(2, _PAGES).ToList().ForEach(x => ParseWallpapersPage(wc.DownloadString("http://visualstudiowallpapers.com/page/" + x)));
         }
 
         private void ParseWallpapersPage(string htmlCode) 

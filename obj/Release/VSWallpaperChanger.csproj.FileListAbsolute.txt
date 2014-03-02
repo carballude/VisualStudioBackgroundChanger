@@ -1,0 +1,9 @@
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\bin\Release\VSWallpaperChanger.exe.config
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\bin\Release\VSWallpaperChanger.exe
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\bin\Release\VSWallpaperChanger.pdb
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Release\VSWallpaperChanger.AboutBox.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Release\VSWallpaperChanger.MainWindow.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Release\VSWallpaperChanger.Properties.Resources.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Release\VSWallpaperChanger.csproj.GenerateResource.Cache
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Release\VSWallpaperChanger.exe
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Release\VSWallpaperChanger.pdb

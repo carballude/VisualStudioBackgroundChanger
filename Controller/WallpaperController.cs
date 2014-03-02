@@ -22,6 +22,7 @@ namespace VSWallpaperChanger.Controller
 
         public event EventHandler DownloadingWallpapers;
         public event EventHandler WallpaperChanged;
+        public event EventHandler NetworkError;
 
         public static WallpaperController GetInstance()
         {
@@ -45,6 +46,7 @@ namespace VSWallpaperChanger.Controller
             DownloadingWallpapers(this, null);
             var urls = new List<string>();
             _providers.ForEach(x => urls.AddRange(x.Wallpapers));
+            if (urls.Count == 0) throw new InvalidOperationException("Can't contact with the remote server. Are you connected to the Internet?");
             var index = new Random(DateTime.Now.Millisecond).Next(0, urls.Count - 1);
             return urls.ElementAt(index);
         }
@@ -64,9 +66,13 @@ namespace VSWallpaperChanger.Controller
 
         public void NextWallpaper()
         {
-            DownloadWallpaper(SelectWallpaper());
-            ChangeWallpaper();
-            WallpaperChanged(this, null);
+            try
+            {
+                DownloadWallpaper(SelectWallpaper());
+                ChangeWallpaper();
+                WallpaperChanged(this, null);
+            }
+            catch (InvalidOperationException e) { NetworkError(e, null); }
         }
     }
 }

@@ -24,6 +24,12 @@ namespace VSWallpaperChanger
             InitializeComponent();
             _controller.DownloadingWallpapers += _controller_DownloadingWallpapers;
             _controller.WallpaperChanged += _controller_WallpaperChanged;
+            _controller.NetworkError += _controller_NetworkError;
+        }
+
+        void _controller_NetworkError(object sender, EventArgs e)
+        {
+            statusBarLabel.Text = ((InvalidOperationException)sender).Message;
         }
 
         void _controller_WallpaperChanged(object sender, EventArgs e)

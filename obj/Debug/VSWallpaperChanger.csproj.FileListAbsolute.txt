@@ -8,3 +8,13 @@ c:\users\pacarba\documents\visual studio 2013\Projects\VSWallpaperChanger\VSWall
 c:\users\pacarba\documents\visual studio 2013\Projects\VSWallpaperChanger\VSWallpaperChanger\obj\Debug\VSWallpaperChanger.pdb
 c:\users\pacarba\documents\visual studio 2013\Projects\VSWallpaperChanger\VSWallpaperChanger\obj\Debug\VSWallpaperChanger.MainWindow.resources
 c:\users\pacarba\documents\visual studio 2013\Projects\VSWallpaperChanger\VSWallpaperChanger\obj\Debug\VSWallpaperChanger.AboutBox.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\bin\Debug\VSWallpaperChanger.exe.config
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.exe
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.pdb
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\bin\Debug\VSWallpaperChanger.exe
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\bin\Debug\VSWallpaperChanger.pdb
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.AboutBox.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.MainWindow.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.Properties.Resources.resources
+C:\Users\Pablo\Documents\GitHub\VisualStudioBackgroundChanger\obj\Debug\VSWallpaperChanger.csproj.GenerateResource.Cache
