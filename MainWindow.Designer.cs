@@ -81,9 +81,9 @@
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(422, 167);
+            this.panel1.Size = new System.Drawing.Size(563, 206);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -91,27 +91,27 @@
             this.panel3.Controls.Add(this.statusStrip1);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 63);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(0, 76);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(422, 104);
+            this.panel3.Size = new System.Drawing.Size(563, 130);
             this.panel3.TabIndex = 2;
             // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.statusBarLabel});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 82);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 105);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(422, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(563, 25);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // statusBarLabel
             // 
             this.statusBarLabel.Name = "statusBarLabel";
-            this.statusBarLabel.Size = new System.Drawing.Size(42, 17);
+            this.statusBarLabel.Size = new System.Drawing.Size(54, 20);
             this.statusBarLabel.Text = "Ready!";
             // 
             // panel4
@@ -119,9 +119,9 @@
             this.panel4.Controls.Add(this.tableLayoutPanel1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(422, 81);
+            this.panel4.Size = new System.Drawing.Size(563, 100);
             this.panel4.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -136,22 +136,21 @@
             this.tableLayoutPanel1.Controls.Add(this.button1, 2, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(422, 81);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(563, 100);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(86, 27);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(115, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 13);
+            this.label2.Size = new System.Drawing.Size(162, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Update every (minutes):";
             this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -159,10 +158,10 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.numericUpDown1.Location = new System.Drawing.Point(212, 18);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown1.Location = new System.Drawing.Point(283, 26);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(122, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(162, 22);
             this.numericUpDown1.TabIndex = 1;
             this.numericUpDown1.Value = new decimal(new int[] {
             30,
@@ -174,10 +173,10 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Location = new System.Drawing.Point(212, 60);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(283, 75);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 19);
+            this.button1.Size = new System.Drawing.Size(162, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "Update now!";
             this.button1.UseVisualStyleBackColor = true;
@@ -188,21 +187,20 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 24);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(0, 28);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(422, 39);
+            this.panel2.Size = new System.Drawing.Size(563, 48);
             this.panel2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Location = new System.Drawing.Point(0, 1);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(7, 6, 0, 0);
-            this.label1.Size = new System.Drawing.Size(385, 19);
+            this.label1.Padding = new System.Windows.Forms.Padding(9, 7, 0, 0);
+            this.label1.Size = new System.Drawing.Size(514, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "Visual Studio Wallpaper Changer will make your desktop proud of Visual Studio";
             // 
@@ -210,11 +208,10 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label12.Location = new System.Drawing.Point(0, 20);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(0, 24);
             this.label12.Name = "label12";
-            this.label12.Padding = new System.Windows.Forms.Padding(7, 6, 0, 0);
-            this.label12.Size = new System.Drawing.Size(274, 19);
+            this.label12.Padding = new System.Windows.Forms.Padding(9, 7, 0, 0);
+            this.label12.Size = new System.Drawing.Size(363, 24);
             this.label12.TabIndex = 3;
             this.label12.Text = "You can minimize this App to iconify it when you want :)";
             // 
@@ -225,8 +222,8 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(422, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(563, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -235,13 +232,13 @@
             this.visualStudioWallpaperChangerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.visualStudioWallpaperChangerToolStripMenuItem.Name = "visualStudioWallpaperChangerToolStripMenuItem";
-            this.visualStudioWallpaperChangerToolStripMenuItem.Size = new System.Drawing.Size(191, 20);
+            this.visualStudioWallpaperChangerToolStripMenuItem.Size = new System.Drawing.Size(239, 24);
             this.visualStudioWallpaperChangerToolStripMenuItem.Text = "&Visual Studio Wallpaper Changer";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -250,26 +247,26 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutVisualStudioWallpaperChangerToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // aboutVisualStudioWallpaperChangerToolStripMenuItem
             // 
             this.aboutVisualStudioWallpaperChangerToolStripMenuItem.Name = "aboutVisualStudioWallpaperChangerToolStripMenuItem";
-            this.aboutVisualStudioWallpaperChangerToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
+            this.aboutVisualStudioWallpaperChangerToolStripMenuItem.Size = new System.Drawing.Size(350, 24);
             this.aboutVisualStudioWallpaperChangerToolStripMenuItem.Text = "&About Visual Studio Wallpaper Changer...";
             this.aboutVisualStudioWallpaperChangerToolStripMenuItem.Click += new System.EventHandler(this.aboutVisualStudioWallpaperChangerToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 167);
+            this.ClientSize = new System.Drawing.Size(563, 206);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "MainWindow";
             this.Text = "Visual Studio Wallpaper Changer";

@@ -25,6 +25,7 @@ namespace VSWallpaperChanger
             _controller.DownloadingWallpapers += _controller_DownloadingWallpapers;
             _controller.WallpaperChanged += _controller_WallpaperChanged;
             _controller.NetworkError += _controller_NetworkError;
+            changeWallpaperTimer.Start();
         }
 
         void _controller_NetworkError(object sender, EventArgs e)
